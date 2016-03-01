@@ -15,7 +15,7 @@
     <!-- P R O J E C T D E S C R I P T I O N -->
     <!-- ====================================================================== -->
 
-    <artifactId>bulkcontentdownloader-content</artifactId>
+    <artifactId>bulkcontentdownloader-package</artifactId>
     <packaging>content-package</packaging>
     <name>Bulk Content Downloader Tool Package</name>
 

@@ -241,7 +241,7 @@
         </profile>
     </profiles>
   <modules>
-    <module>bundle</module>
-    <module>content</module>
+    <module>bulkcontentdownloader-bundle</module>
+    <module>bulkcontentdownloader-package</module>
   </modules>
 </project>
