@@ -12,6 +12,15 @@
 
     <name>Bulk Content Downloader Tool - Reactor Project</name>
     <description>Maven Multimodule project for Bulk Content Downloader Tool.</description>
+        
+    <developers>
+        <developer>
+            <name>Alberto Almagro Sotelo</name>
+            <email>alberto.almagroi@netcentric.biz</email>
+            <organization>Netcentric</organization>
+            <organizationUrl>http://www.netcentric.biz/</organizationUrl>
+        </developer>
+    </developers>
 
     <prerequisites>
         <maven>3.0.2</maven>
