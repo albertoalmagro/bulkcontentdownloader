@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/bulkcontentdownloader"/>
+    <filter root="/etc/bulkcontentdownloader"/>
+    <filter root="/etc/clientlibs/bulkcontentdownloader"/>
 </workspaceFilter>
