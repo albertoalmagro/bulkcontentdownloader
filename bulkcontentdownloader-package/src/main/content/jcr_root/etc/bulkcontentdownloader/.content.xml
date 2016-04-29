@@ -5,9 +5,9 @@
           jcr:primaryType="cq:Page">
     <jcr:content
         cq:defaultView="html"
-        cq:template="/apps/bulkcontentdownloader/templates/console"
+        cq:template="/apps/bulkcontentdownloader/templates/bulkcontentdownloader"
         jcr:primaryType="cq:PageContent"
         jcr:title="Bulk Content Downloader"
-        sling:resourceType="bulkcontentdownloader/components/console"
+        sling:resourceType="bulkcontentdownloader/components/bulkcontentdownloader"
         sling:vanityPath="/bulkcontentdownloader" />
 </jcr:root>
