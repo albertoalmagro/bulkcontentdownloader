@@ -1,6 +1,6 @@
 /*global angular: false */
 
-angular.module('ACS.Tools.notifications', []).factory('NotificationsService', ['$timeout', function ($timeout) {
+angular.module('BulkContentDownloader.notifications', []).factory('NotificationsService', ['$timeout', function ($timeout) {
     return {
         data: {
             timeout: 20 * 1000,

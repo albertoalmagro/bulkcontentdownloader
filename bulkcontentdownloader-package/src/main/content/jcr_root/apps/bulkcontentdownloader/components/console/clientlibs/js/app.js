@@ -1,6 +1,6 @@
 /*global angular: false */
 
-angular.module('bulkcontentdownloader-app', ['ACS.Tools.notifications']).controller('MainCtrl',
+angular.module('bulkcontentdownloader-app', ['BulkContentDownloader.notifications']).controller('MainCtrl',
     [ '$scope', '$http', '$timeout', '$interval', 'NotificationsService',
         function ($scope, $http, $timeout, $interval, NotificationsService) {
 

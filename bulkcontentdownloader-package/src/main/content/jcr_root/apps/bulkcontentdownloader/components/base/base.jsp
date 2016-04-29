@@ -12,7 +12,7 @@
        scope="request"/>
 
 <c:set var="clientLib"
-       value="<%= xssAPI.encodeForHTMLAttr("bulkcontentdownloader-app") %>"
+       value="<%= xssAPI.encodeForHTMLAttr("bulkcontentdownloader-.app") %>"
        scope="request"/>
 
 <c:set var="app"
