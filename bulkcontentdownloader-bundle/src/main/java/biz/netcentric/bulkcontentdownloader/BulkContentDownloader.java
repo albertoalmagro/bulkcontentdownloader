@@ -3,8 +3,10 @@ package biz.netcentric.bulkcontentdownloader;
 import javax.annotation.PostConstruct;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.jackrabbit.vault.packaging.PackageManager;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.OSGiService;
 import org.apache.sling.models.annotations.injectorspecific.SlingObject;
 
 /** Bean for BulkContentDownloader
@@ -21,6 +23,9 @@ public class BulkContentDownloader {
 
     @SlingObject
     protected SlingHttpServletRequest request;
+
+    @OSGiService
+    private PackageManager packageManager;
 
     @PostConstruct
     public void init() {
