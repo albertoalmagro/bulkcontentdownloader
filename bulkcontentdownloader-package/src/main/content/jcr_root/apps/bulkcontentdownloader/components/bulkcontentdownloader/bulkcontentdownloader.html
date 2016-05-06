@@ -7,7 +7,23 @@
         <title>${currentPage.title} | Netcentric Tools</title>
     </head>
 
-    <body>
-        Test
+    <body data-sly-use.bcd="${'biz.netcentric.bulkcontentdownloader.BulkContentDownloader'}">
+        <sly data-sly-test.hasContent="${bcd.hasContent}">
+	        <h1>Parameters:</h1>
+	        <ul>
+	            <li>maxSize=${bcd.maxSize}</li>
+	            <li>Paths:
+	                <ul data-sly-list.path="${bcd.paths}">
+	                    <li>${path}</li>
+	                </ul>
+	            </li>
+	        </ul>
+        </sly>
+        <sly data-sly-test="${!hasContent}">
+            <h1>Not enough parameters</h1>
+            <p>Please ensure to specify <code>maxSize</code> and at least one <code>path</code></p>
+            <h2>Usage example:</h2>
+            <p>http://localhost:4502/etc/bulkcontentdownloader.html?maxSize=2GB&path=/content/projecta&path=/content/dam/projecta</p>
+        </sly>
     </body>
 </html>
